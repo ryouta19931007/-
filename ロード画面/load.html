@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="load.css">
+</head>
+<body>
+  <script type="text/javascript">
+    $(function() {
+    	setTimeout(function(){
+    		$('.start p').fadeIn(1600);
+    	},500); //0.5秒後にロゴをフェードイン!
+    	setTimeout(function(){
+    		$('.start').fadeOut(500);
+    	},3500); //6.5秒後にロゴ含め真っ白背景をフェードアウト！
+    });
+    location.href = "../トップページ/top.php" ;
+  </script>
+          <div class="start">
+              <p><img src="../image/logo.gif" alt=""></p>
+          </div>
+
+</body>
+</html>
